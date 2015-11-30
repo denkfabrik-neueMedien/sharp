@@ -56,7 +56,7 @@ module.exports.download_vips = function() {
   if (!isFile(vipsHeaderPath)) {
     // Ensure 64-bit
     if (process.arch !== 'x64') {
-      error('ARM and 32-bit systems require manual installation - please see http://sharp.dimens.io/en/stable/install/');
+      //error('ARM and 32-bit systems require manual installation - please see http://sharp.dimens.io/en/stable/install/');
     }
     // Ensure libc >= 2.15
     var lddVersion = process.env.LDD_VERSION;
